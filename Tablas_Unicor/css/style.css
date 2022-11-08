@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+h3{
+    text-align: center;
+}
+.formulario{
+    margin: 20px 0;
+    box-shadow: 0 0 3px gray;
+    border-radius: 10px;
+    background-color: #dee2f0;
+    height: max-content;
+    
+}
+
+form .table1{
+    align-items: center;
+    margin-left: 200px;
+}
+form .table{
+    align-items: center;
+    margin-left: 120px;
+}
+
+form .table2{
+    align-items: center;
+    margin-left: 100px;
+}
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 520px; text-align: left;    border-collapse: collapse; }
+.table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 12px;    margin: 45px;     width: 60%; text-align: left;   border-collapse: collapse; }    
+.table1 {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 50%; text-align: left;   border-collapse: collapse; }    
+  
+    
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+.form__button{
+    background-color: #3866f2;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .5em 0;
+    width: 90%;
+    border-radius: .5em;
+    border: none;
+    margin: 20px;
+}
+.form__buttonn{
+    background-color: #3b4c7e;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .5em 0;
+    width: 100%;
+    border-radius: .5em;
+    margin: 20px;
+    text-decoration: none;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
